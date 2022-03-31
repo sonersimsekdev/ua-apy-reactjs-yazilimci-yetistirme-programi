@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+
+    <header>
+        <h2>SUDOKU UI</h2>
+    </header>
+    <article>
+    <div class="sudoku">
+      <div class="out-row">
+        <!--the first row of sudoku-->
+        <div class="box">
+          <!--the first box of row-->
+          <div class="in-row">
+            <!--the first row of box-->
+            <div class="cell borderRightRemove">5</div>
+            <!--the first cell of box-->
+            <div class="cell borderRightRemove">3</div>
+            <div class="cell">4</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">6</div>
+            <div class="cell borderTopRemove borderRightRemove">7</div>
+            <div class="cell borderTopRemove">2</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">1</div>
+            <div class="cell borderTopRemove borderRightRemove">9</div>
+            <div class="cell borderTopRemove">8</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="in-row">
+            <div class="cell borderRightRemove">6</div>
+            <div class="cell borderRightRemove">7</div>
+            <div class="cell">8</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">1</div>
+            <div class="cell borderTopRemove borderRightRemove">9</div>
+            <div class="cell borderTopRemove">5</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">3</div>
+            <div class="cell borderTopRemove borderRightRemove">4</div>
+            <div class="cell borderTopRemove">2</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="in-row">
+            <div class="cell borderRightRemove">9</div>
+            <div class="cell borderRightRemove">1</div>
+            <div class="cell">2</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">3</div>
+            <div class="cell borderTopRemove borderRightRemove">4</div>
+            <div class="cell borderTopRemove">8</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">5</div>
+            <div class="cell borderTopRemove borderRightRemove">6</div>
+            <div class="cell borderTopRemove">7</div>
+          </div>
+        </div>
+      </div>
+      <div class="out-row">
+        <!--the first row of sudoku-->
+        <div class="box">
+          <!--the first box of row-->
+          <div class="in-row">
+            <!--the first row of box-->
+            <div class="cell borderRightRemove">5</div>
+            <!--the first cell of box-->
+            <div class="cell borderRightRemove">3</div>
+            <div class="cell">4</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">6</div>
+            <div class="cell borderTopRemove borderRightRemove">7</div>
+            <div class="cell borderTopRemove">2</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">1</div>
+            <div class="cell borderTopRemove borderRightRemove">9</div>
+            <div class="cell borderTopRemove">8</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="in-row">
+            <div class="cell borderRightRemove">6</div>
+            <div class="cell borderRightRemove">7</div>
+            <div class="cell">8</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">1</div>
+            <div class="cell borderTopRemove borderRightRemove">9</div>
+            <div class="cell borderTopRemove">5</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">3</div>
+            <div class="cell borderTopRemove borderRightRemove">4</div>
+            <div class="cell borderTopRemove">2</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="in-row">
+            <div class="cell borderRightRemove">9</div>
+            <div class="cell borderRightRemove">1</div>
+            <div class="cell">2</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">3</div>
+            <div class="cell borderTopRemove borderRightRemove">4</div>
+            <div class="cell borderTopRemove">8</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">5</div>
+            <div class="cell borderTopRemove borderRightRemove">6</div>
+            <div class="cell borderTopRemove">7</div>
+          </div>
+        </div>
+      </div>
+      <div class="out-row">
+        <!--the first row of sudoku-->
+        <div class="box">
+          <!--the first box of row-->
+          <div class="in-row">
+            <!--the first row of box-->
+            <div class="cell borderRightRemove">5</div>
+            <!--the first cell of box-->
+            <div class="cell borderRightRemove">3</div>
+            <div class="cell">4</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">6</div>
+            <div class="cell borderTopRemove borderRightRemove">7</div>
+            <div class="cell borderTopRemove">2</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">1</div>
+            <div class="cell borderTopRemove borderRightRemove">9</div>
+            <div class="cell borderTopRemove">8</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="in-row">
+            <div class="cell borderRightRemove">6</div>
+            <div class="cell borderRightRemove">7</div>
+            <div class="cell">8</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">1</div>
+            <div class="cell borderTopRemove borderRightRemove">9</div>
+            <div class="cell borderTopRemove">5</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">3</div>
+            <div class="cell borderTopRemove borderRightRemove">4</div>
+            <div class="cell borderTopRemove">2</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="in-row">
+            <div class="cell borderRightRemove">9</div>
+            <div class="cell borderRightRemove">1</div>
+            <div class="cell">2</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">3</div>
+            <div class="cell borderTopRemove borderRightRemove">4</div>
+            <div class="cell borderTopRemove">8</div>
+          </div>
+          <div class="in-row">
+            <div class="cell borderTopRemove borderRightRemove">5</div>
+            <div class="cell borderTopRemove borderRightRemove">6</div>
+            <div class="cell borderTopRemove">7</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</article>
+    <footer>
+        <h2>Coder by <a href="http://soners.dev/" target="_blank">soners.dev</a></h2>
+    </footer>
+  </body>
+</html>
