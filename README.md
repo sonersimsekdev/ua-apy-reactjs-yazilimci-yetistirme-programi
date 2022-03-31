@@ -3,10 +3,10 @@
 
 #week 1 calculator app
 
->[week 1 calculator app](https://sonersimsekdev.github.io/ua-apy-reactjs-yazilimci-yetistirme-programi/week-1/index.html)
+>[week 1 calculator app](https://sonersimsekdev.github.io/ua-apy-reactjs-yazilimci-yetistirme-programi/week-1/)
 
 #week 2 sudoku ui
 
->[week 2 sudoku ui](https://sonersimsekdev.github.io/ua-apy-reactjs-yazilimci-yetistirme-programi/week-2/index.html)
+>[week 2 sudoku ui](https://sonersimsekdev.github.io/ua-apy-reactjs-yazilimci-yetistirme-programi/week-2/)
 
 
