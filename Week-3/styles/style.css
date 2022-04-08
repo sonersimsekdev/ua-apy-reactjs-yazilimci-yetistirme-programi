@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8f9fa;
+  color: #111111 !important;
+  font-size: 1em;
+}
+
+body a,
+body a:hover,
+body a:active,
+body a:visited,
+body a:link {
+  color: #111111 !important;
+}
+
+.list-group-item:hover {
+  background-color: #e9e9e9;
+}
+
+.nav-link:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #e09a17 !important;
+}
+
+/*
+<nav class="navbar  navbar-light bg-light ">
+        <!-- Navbar content -->
+        <ul class="nav">
+          <li class="nav-item ">
+            <a href="" class="nav-link  ps-0"><i class="bi bi-house me-1"></i>Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><i class="bi bi-info-square me-1"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><i class="bi bi-globe me-1"></i>Explore</a>
+          </li>
+        </ul>
+        <li class="nav-item d-flex">
+          <a href="" class="nav-link pe-0"><i class="bi bi-person-rolodex me-1"></i></i>Contact</a>
+        </li>
+      </nav>
+*/
+/*# sourceMappingURL=style.css.map */
