@@ -16,5 +16,5 @@
 
 #week 4 Random ImageGet
 
->[week 3 Random ImageGet](https://sonersimsekdev.github.io/ua-apy-reactjs-yazilimci-yetistirme-programi/week-4/)
+>[week 4 Random ImageGet](https://sonersimsekdev.github.io/ua-apy-reactjs-yazilimci-yetistirme-programi/week-4/)
 
