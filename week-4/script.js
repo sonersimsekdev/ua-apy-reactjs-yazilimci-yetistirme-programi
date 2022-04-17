@@ -15,7 +15,7 @@ imageGet = (numberId) => {
     for (let i = 1; i < 10; i++) {
         numberId = randomImageValueArray[i]
         contentArea.innerHTML += `
-            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 m-2"><img class="img-fluid" src="https://source.unsplash.com/random/${numberId}"></div>`
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 m-2"><img class="img-fluid" src="https://source.unsplash.com/random/300x400?${numberId}"></div>`
     }
 }
 
