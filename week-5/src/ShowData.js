@@ -8,9 +8,9 @@ export default class ShowData extends Component {
     constructor() {
         super();
         this.state = {
-            defaultCelcius: 1,
+            defaultCelcius: 0,
             fahrenheitC: 32,
-            kelvinC: 274.15,
+            kelvinC: 273.15,
         }
     }
 
@@ -20,7 +20,7 @@ export default class ShowData extends Component {
             this.setState({
                 defaultCelcius: this.state.defaultCelcius + 1,
                 fahrenheitC: this.state.defaultCelcius * 1.8 + 32,
-                kelvinC: this.state.defaultCelcius + 274.15,
+                kelvinC: this.state.defaultCelcius + 273.15,
             })
         }
 
