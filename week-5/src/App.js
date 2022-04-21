@@ -1,5 +1,5 @@
 import React from "react"
-import ShowData from "./ShowData"
+import ShowData from "../src/components/ShowData"
 
 class App extends React.Component {
 
